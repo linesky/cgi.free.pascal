@@ -17,7 +17,7 @@ begin
 if 0>=0 then 
  begin 
   
-s1:='[0][';
+s1:='<html><body bgcolor="blue">';
 for a := 0  to 8 do
 begin
 n:=random(49)+1;
@@ -25,7 +25,7 @@ Str(n,s2);
 s1:=s1 + s2;
 s1:=s1 +'  '
    end;
- s1:=Concat(s1 , '.][ Ok ]');
+ s1:=Concat(s1 , '</body></html>');
  writeln(s1); 
  
  
